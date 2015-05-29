@@ -1,6 +1,6 @@
 package BlockedUrl;
 
-our $VERSION = 0.20003;
+our $VERSION = 0.20004;
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ BlockedURL
 
 =head1 VERSION
 
-0.2.3
+0.2.4
 
 =head1 DESCRIPTION
 

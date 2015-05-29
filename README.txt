@@ -1,8 +1,8 @@
 NAME
-    BlockedUrl
+    BlockedURL
 
 VERSION
-    0.2.3
+    0.2.4
 
 DESCRIPTION
     Minimal URL submit/status implementation of Censorship Monitoring
@@ -46,15 +46,17 @@ SYNOPSIS
             #               ...
             #       ]
 
+SSL Warning!
+    Currently, SSL_verify_mode is set to SSL_VERIFY_NONE, so we currently
+    cannot be sure of who we're talking to.
+
 METHODS
   url( <string> )
     Sets/gets the URL to check
 
   push_request()
-    Performs a push of the instance's url to the network. Currently,
-    SSL_verify_mode is set to SSL_VERIFY_NONE, so we cannot currently be
-    sure of who we're talking to. Results can be retrieved from
-    push_response().
+    Performs a push of the instance's url to the network. Results can be
+    retrieved from push_response().
 
     Returns self, dies on all errors.
 
@@ -70,4 +72,10 @@ METHODS
 
   status_Returns self, desponse()
     returnse the parsed JSON answer of last successful get_status()
+
+AUTHOR
+    Martin Gutsch
+
+LICENSE
+    MIT, See LICENSE file for more info.
 
