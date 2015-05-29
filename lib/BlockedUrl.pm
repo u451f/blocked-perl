@@ -84,6 +84,14 @@ Returns self, dies on all other errors.
 
 returnse the parsed JSON answer of last successful get_status()
 
+=head1 AUTHOR
+
+Martin Gutsch
+
+=head1 LICENSE
+
+MIT, See LICENSE file for more info.
+
 =cut
 
 use Moose;
